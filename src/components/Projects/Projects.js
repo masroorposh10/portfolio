@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import { Link } from "react-router-dom";
 import MPCODE from "../../Assets/MPCODE.png";
 import motionpromax from "../../Assets/motionpromax.png"
 import legacy from "../../Assets/legacy.png";
@@ -11,6 +10,8 @@ import javaproj from "../../Assets/javaproj.png";
 import country from "../../Assets/country.png";
 import company from "../../Assets/company.png";
 import wordle from "../../Assets/wordle.png";
+import cicd1 from "../../Assets/cicd1.png";
+import nlp from "../../Assets/nlp.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -110,6 +111,29 @@ function Projects() {
               ghLink="https://github.com/masroorposh10/CompanyData-PythonApp.git"     
             />
           </Col>
+          <p style={{ color: "white", fontSize:"24px" }}>
+          Some Exciting projects: 
+        </p>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={cicd1}
+              isBlog={false}
+              title="CI-CD Demo"
+              description="In a recent CI/CD project, we successfully implemented a seamless deployment process for AWS Lambda functions. Leveraging the power of GitHub Workflows and Terraform, we achieved efficient automation from code commits to production. By integrating GitHub repositories with AWS services, we streamlined the development and deployment pipeline. With Terraform's infrastructure-as-code approach, we easily provisioned and managed the required AWS resources, ensuring consistent and scalable environments for our Lambda functions."
+              ghLink="https://github.com/masroorposh10/cicd-demo.git"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={nlp}
+              isBlog={false}
+              title="NLP Language Tracker"
+              description="In my personal NLP project, I created a language checker model. Leveraging advanced NLP techniques, it accurately detects and corrects language errors in text. Using GitHub Workflows for continuous integration, I established an efficient deployment pipeline. By leveraging a large language corpus and powerful algorithms, my model enhances language accuracy and improves writing quality. This project showcases the potential of NLP for automating language checking and enhancing text quality."
+              ghLink="https://github.com/masroorposh10/NLP-Language-Model.git"     
+            />
+          </Col>
         </Row>
       </Container>
       <h1 style={{color:"blanchedalmond"}}>For more amazing <strong style={{color:"purple"}}>projects </strong> visit my <strong style={{color:"olive"}}>github:</strong> </h1>
@@ -117,5 +141,6 @@ function Projects() {
     </Container>
   );
 }
+
 
 export default Projects;
