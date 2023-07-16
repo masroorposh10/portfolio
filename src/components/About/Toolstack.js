@@ -8,7 +8,7 @@ import {
   SiGithub,
   SiNetlify
 } from "react-icons/si";
-import { DiEnvato, DiLinux, DiOpensource, DiSenchatouch } from "react-icons/di";
+import { DiLinux} from "react-icons/di";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -34,7 +34,7 @@ function Toolstack() {
         <DiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img style={{height:"70px"}} src="https://images.indianexpress.com/2023/01/chatgpt-extension.jpg"></img>
+        <img alt="" style={{height:"70px"}} src="https://images.indianexpress.com/2023/01/chatgpt-extension.jpg"></img>
       </Col>
     </Row>
   );

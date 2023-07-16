@@ -12,6 +12,7 @@ import company from "../../Assets/company.png";
 import wordle from "../../Assets/wordle.png";
 import cicd1 from "../../Assets/cicd1.png";
 import nlp from "../../Assets/nlp.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
