@@ -138,7 +138,7 @@ function Projects() {
         </Row>
       </Container>
       <h1 style={{color:"blanchedalmond"}}>For more amazing <strong style={{color:"purple"}}>projects </strong> visit my <strong style={{color:"olive"}}>github:</strong> </h1>
-        <h2 style={{color:"Highlight"}}>https://github.com/masroorposh10</h2>
+        <h2 style={{color:"Highlight"}}>username: masroorposh10</h2>
     </Container>
   );
 }

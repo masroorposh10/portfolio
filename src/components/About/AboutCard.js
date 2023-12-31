@@ -9,11 +9,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello There, I am <span className="purple"> Masroor Posh </span>
-            from <span className="purple"> Calgary, Alberta.</span>
+            from <span className="purple"> Canada. </span>
             <br /> I am a software engineering student at University of Calgary.
             <br />
-            I have worked as a fullstack Software developer for GeoS(A Calgary Based company which works with efficient drilling and geothermal processes) 
-            I worked on the Geopredict webapp where I used Fast API for the backend and a postGre SQL. and for the frontend I used react.
+            I have worked as a fullstack Software developer, AI/ML Engineer, Data Scientist and more. In different sectors like Fintech, Energy, Low Power AI and more. 
             <br />
             <br />
             Apart from that, I also have many other skills like working with cloud AWS lambda functions, EC2, Terraform and YAML. Where I have create Project related to those.
@@ -21,13 +20,13 @@ function AboutCard() {
           <ul>
             <p>A few things I like:  </p>
             <li className="about-activity">
-              <ImPointRight /> Watching Anime.
+              <ImPointRight /> Meditate.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Building Things.
+              <ImPointRight /> Running.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing footbal/soccer.
+              <ImPointRight /> Sports.
             </li>
           </ul>
         </blockquote>

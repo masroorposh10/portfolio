@@ -22,7 +22,7 @@ function Home2() {
               <br />
               <br />I have a strong background in various technologies including 
               <i>
-                <b className="purple"> JavaScript, AWS Cloud, CI/CD, React, Python, Java, and SQL.  </b>
+                <b className="purple"> JavaScript, AWS Cloud, CI/CD, React, Python, Java, ML and SQL.  </b>
               </i>
               <br />
               <br />

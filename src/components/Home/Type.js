@@ -9,7 +9,9 @@ function Type() {
           "Software Developer",
           "DevOps Engineer",
           "Full Stack Developer",
-          "Web Developer"
+          "Web Developer",
+          "AI/ML Engineer.",
+          "Deep Learning Engineer"
         ],
         autoStart: true,
         loop: true,
