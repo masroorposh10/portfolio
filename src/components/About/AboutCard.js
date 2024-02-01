@@ -15,7 +15,7 @@ function AboutCard() {
             I have worked as a fullstack Software developer, AI/ML Engineer, Data Scientist and more. In different sectors like Fintech, Energy, Low Power AI and more. 
             <br />
             <br />
-            Apart from that, I also have many other skills like working with cloud AWS lambda functions, EC2, Terraform and YAML. Where I have create Project related to those.
+            Apart from that, I also have many other skills like working with cloud AWS, Azure, EC2, Terraform, ML/AI and more. Where I have create Project related to those.
           </p>
           <ul>
             <p>A few things I like:  </p>
